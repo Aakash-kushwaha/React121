@@ -10,7 +10,7 @@ import Showcontext from './contextapi/Showcontext';
 // import Show from './todo/Show';
 // import Uplift from './uplifting(usestate)/Uplift';
 
-
+import Allroutes from "./Authassignment/Allroutes"
 
 
 function App() {
@@ -29,7 +29,9 @@ function App() {
 {/* <Cleanup></Cleanup> */}
    {/* <Restro></Restro> */}
    {/* <Intro></Intro> */}
-<Showcontext></Showcontext>
+{/* <Showcontext></Showcontext> */}
+<Allroutes></Allroutes>
+
     </div>
   
   );

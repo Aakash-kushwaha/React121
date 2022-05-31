@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import Contextapiprovider from "./contextapi/Contextapiprovider"
+import { Authprovider } from './Authassignment/Authprovider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // // without jsx
@@ -26,11 +27,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   ])
 
 root.render(
-
-<Contextapiprovider>
+<Authprovider>
+    <BrowserRouter>
 <App></App>
-
-</Contextapiprovider>
+</BrowserRouter>
+</Authprovider>
+// { <Contextapiprovider> }
+// </Contextapiprovider>
 );
 
 
