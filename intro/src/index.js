@@ -27,11 +27,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   ])
 
 root.render(
-<Authprovider>
-    <BrowserRouter>
+
+<BrowserRouter>
 <App></App>
 </BrowserRouter>
-</Authprovider>
+
+
+/* <Authprovider>
+ </Authprovider> */
 // { <Contextapiprovider> }
 // </Contextapiprovider>
 );

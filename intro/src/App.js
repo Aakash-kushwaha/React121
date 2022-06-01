@@ -11,6 +11,7 @@ import Showcontext from './contextapi/Showcontext';
 // import Uplift from './uplifting(usestate)/Uplift';
 
 import Allroutes from "./Authassignment/Allroutes"
+import RestroRoutes from './Restaurent_full/RestroRoutes';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
    {/* <Restro></Restro> */}
    {/* <Intro></Intro> */}
 {/* <Showcontext></Showcontext> */}
-<Allroutes></Allroutes>
+{/* <Allroutes></Allroutes> */}
+<RestroRoutes> </RestroRoutes>
 
     </div>
   
