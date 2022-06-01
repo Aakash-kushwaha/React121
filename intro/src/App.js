@@ -12,6 +12,7 @@ import Showcontext from './contextapi/Showcontext';
 
 import Allroutes from "./Authassignment/Allroutes"
 import RestroRoutes from './Restaurent_full/RestroRoutes';
+ import Showevaluation from "./evalutaion1/components/Showevaluation"
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 {/* todo>>>>>>>>>>>>>> */}
   {/* <Show></Show> */}
 {/* <Github></Github> */}
-
+<Showevaluation></Showevaluation>
 {/* <Uplift></Uplift> */}
 {/* <Showauthpage></Showauthpage> */}
 {/* <Cleanup></Cleanup> */}
@@ -32,8 +33,8 @@ function App() {
    {/* <Intro></Intro> */}
 {/* <Showcontext></Showcontext> */}
 {/* <Allroutes></Allroutes> */}
-<RestroRoutes> </RestroRoutes>
-
+{/* <RestroRoutes> </RestroRoutes> */}
+ 
     </div>
   
   );
