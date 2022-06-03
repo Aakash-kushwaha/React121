@@ -1,16 +1,12 @@
 import React from 'react'
 
-const Sort = () => {
+const Sort = ({price,setprice}) => {
   return (<>
     <div style={{margin:"auto",width:"20rem"}}>
-    <button>By low price</button>
-    <button>By High price </button>
+    <button onClick={()=>setprice("asc")}>By ASC price</button>
+    <button  onClick={()=>setprice("desc")}>By DESC price </button>
     </div>
-    <div style={{margin:"auto",width:"20rem"}}>
-    <button>By low rating</button>
-    <button>By High rating </button>
-    
-    </div>
+   
 </>  )
 }
 

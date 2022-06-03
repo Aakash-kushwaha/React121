@@ -25,7 +25,7 @@ function App() {
 {/* todo>>>>>>>>>>>>>> */}
   {/* <Show></Show> */}
 {/* <Github></Github> */}
-<Showevaluation></Showevaluation>
+{/* <Showevaluation></Showevaluation> */}
 {/* <Uplift></Uplift> */}
 {/* <Showauthpage></Showauthpage> */}
 {/* <Cleanup></Cleanup> */}
@@ -33,7 +33,7 @@ function App() {
    {/* <Intro></Intro> */}
 {/* <Showcontext></Showcontext> */}
 {/* <Allroutes></Allroutes> */}
-{/* <RestroRoutes> </RestroRoutes> */}
+<RestroRoutes> </RestroRoutes>
  
     </div>
   

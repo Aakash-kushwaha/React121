@@ -5,20 +5,26 @@ import styles from "./Products.module.css"
 
 
 const Productdetails = () => {
-  const [details,setDetails]= React.useState({})
+  const [details,setDetails]= React.useState();
+  const [loader,setLoader] = React.useState(true);
   const {id} = useParams()
-  console.log(id)
+  const getData = async()=>{
+    setLoader(true)
+    let data = await fetch(`http://localhost:3000/food/${id}`);
+    data = await data.json();
+    setDetails(data);
+    console.log(data,"From single product");
+    setLoader(false)
+  }
 
   React.useEffect(()=>{
-    axios({
-      url:`http://localhost:3000/food/${id}`,
-      method:"GET",
-    }).then((res)=>setDetails(res.data))
+    getData()
+     
   },[])
 
-  console.log(details)
   return (
-    <div className={styles.detailscontainer}>
+    <>{loader?<h1>Loading...</h1>:<>
+       <div className={styles.detailscontainer}>
     <div className={styles.detailsdivimg}>
       <img className={styles.proimg} src={details.image}></img>
      
@@ -28,13 +34,15 @@ const Productdetails = () => {
     <p>{details.cuisine}</p>
     <p>cost {details.cost}</p>
     <p>min cost {details.minPrice}</p>
-    {/* <p>Payment Method {details.paymentMethod.data}</p> */}
+    <p>Payment Method {details.paymentMethod.data}</p>
     <p>Ratings {details.rating}</p>
     <p>Reviews {details.reviews}</p>
     <p>Votes {details.votes}</p>
     </div>
    
     </div>
+    </>}</>
+    
   )
 }
 
