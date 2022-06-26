@@ -1,203 +1,219 @@
 {
   "food": [
-   
-    
     {
       "_id": 3,
       "name": "Chinese food",
       "cuisine": " Maxican",
       "cost": 570,
-      "minPrice": 25,"paymentMethod":{
-        "data":"Accepts Cash and UPI payment only",
-        "cash":"true",
-        "card":"false",
-        "upi":"true"
-        },
+      "minPrice": 25,
+      "paymentMethod": {
+        "data": "Accepts Cash and UPI payment only",
+        "cash": "true",
+        "card": "false",
+        "upi": "true"
+      },
       "rating": 3,
       "votes": "931",
       "image": "https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?b=1&k=20&m=1295387240&s=170667a&w=0&h=KtWYFjSBgpNgVkE3P-WKZ2F6V-VxyUBBtJIP_k8IANM=",
-      "id":32,
-      "reviews":500
-    }, 
+      "id": 32,
+      "reviews": 500
+    },
     {
       "_id": 4,
       "name": "wine glass",
       "cuisine": " Chinese",
       "cost": 650,
-      "minPrice": 25,"paymentMethod":{
-        "data":"Accepts card payment only",
-        "cash":"false",
-        "card":"true",
-        "upi":"false"
-        },
+      "minPrice": 25,
+      "paymentMethod": {
+        "data": "Accepts card payment only",
+        "cash": "false",
+        "card": "true",
+        "upi": "false"
+      },
       "rating": 4.7,
       "votes": "793",
       "image": "https://media.istockphoto.com/photos/two-empty-wine-glasses-sitting-in-a-restaurant-on-a-warm-sunny-picture-id1018141890?k=20&m=1018141890&s=612x612&w=0&h=uMDP00MMIhlwQE77EEcoelc2oSKBT_B6avaXqtxgiow=",
-      "id":33,
-      "reviews":540
-    }, 
+      "id": 33,
+      "reviews": 540
+    },
     {
       "_id": 5,
       "name": "cafebar",
       "cuisine": " Desi",
-      "cost":590,
+      "cost": 590,
       "minPrice": 65,
-      "paymentMethod":{
-        "data":"Accepts card payment only",
-        "cash":"false",
-        "card":"true",
-        "upi":"false"
-        },
+      "paymentMethod": {
+        "data": "Accepts card payment only",
+        "cash": "false",
+        "card": "true",
+        "upi": "false"
+      },
       "rating": 3.4,
       "votes": "791",
       "image": "https://media.gettyimages.com/photos/cafebar-in-moscow-picture-id1158221681?s=612x612",
-      "id":34,
-      "reviews":700
-    }, 
+      "id": 34,
+      "reviews": 700
+    },
     {
       "_id": 6,
       "name": "crazy restaurent",
       "cuisine": " japanese",
       "cost": 680,
       "minPrice": 67,
-      "paymentMethod":{
-        "data":"Accepts card payment only",
-        "cash":"false",
-        "card":"true",
-        "upi":"false"
-        },
+      "paymentMethod": {
+        "data": "Accepts card payment only",
+        "cash": "false",
+        "card": "true",
+        "upi": "false"
+      },
       "rating": 4.1,
       "votes": "731",
       "image": "https://media.istockphoto.com/photos/interior-of-cozy-restaurant-loft-style-picture-id843610508?k=20&m=843610508&s=612x612&w=0&h=zDihg07dmPyyYPYtLUK-YGrZ2O-tPIMroNvN4DJfuc8=",
-      "id":35,
-      "reviews":910
-    }, 
+      "id": 35,
+      "reviews": 910
+    },
     {
       "_id": 7,
       "name": "fooddy moddy",
       "cuisine": " usa",
       "cost": 666,
       "minPrice": 53,
-      "paymentMethod":{
-        "data":"Accepts upi payment only",
-        "cash":"false",
-        "card":"false",
-        "upi":"true"
-        },
+      "paymentMethod": {
+        "data": "Accepts upi payment only",
+        "cash": "false",
+        "card": "false",
+        "upi": "true"
+      },
       "rating": 3.3,
       "votes": "5031",
       "image": "https://www.foodbusinessnews.net/ext/resources/2020/4/CoupleAtRestaurant_Lead.jpg?t=1587991293&width=1080",
-      "id":36,
-      "reviews":436
-    }, 
+      "id": 36,
+      "reviews": 436
+    },
     {
       "_id": 8,
       "name": "gajar paak",
       "cuisine": " Pakistan",
       "cost": 770,
       "minPrice": 86,
-      "paymentMethod":{
-        "data":"Accepts card & upi payment only",
-        "cash":"false",
-        "card":"true",
-        "upi":"true"
-        },
+      "paymentMethod": {
+        "data": "Accepts card & upi payment only",
+        "cash": "false",
+        "card": "true",
+        "upi": "true"
+      },
       "rating": 3.7,
       "votes": "7861",
       "image": "https://media.istockphoto.com/photos/restaurant-chilling-out-classy-lifestyle-reserved-concept-picture-id667442560?k=20&m=667442560&s=612x612&w=0&h=TS0fe1OfTMalbAeOW057oo3FMz5PGfPq7CLsSRvd-_U=",
-      "id":37,
-      "reviews":634
-    }, 
+      "id": 37,
+      "reviews": 634
+    },
     {
       "_id": 9,
       "name": "daal",
       "cuisine": " Indian",
       "cost": 325,
       "minPrice": 84,
-      "paymentMethod":{
-        "data":"Accepts card & cash payment only",
-        "cash":"true",
-        "card":"true",
-        "upi":"false"
-        },
+      "paymentMethod": {
+        "data": "Accepts card & cash payment only",
+        "cash": "true",
+        "card": "true",
+        "upi": "false"
+      },
       "rating": 2.7,
       "votes": "8457",
       "image": "https://www.onholdinc.com/mohblog/wp-content/uploads/2018/03/restaurant.jpg",
-      "id":38,
-      "reviewss":854
-    }, 
+      "id": 38,
+      "reviewss": 854
+    },
     {
       "_id": 10,
       "name": "Chawal",
       "cuisine": " Indian",
       "cost": 345,
       "minPrice": 59,
-      "paymentMethod":{
-        "data":"Accepts upi payment only",
-        "cash":"false",
-        "card":"false",
-        "upi":"true"
-        },
+      "paymentMethod": {
+        "data": "Accepts upi payment only",
+        "cash": "false",
+        "card": "false",
+        "upi": "true"
+      },
       "rating": 2.3,
       "votes": "3543",
       "image": "https://restaurantengine.com/wp-content/uploads/2015/05/startup-restaurants-typically-overspend.jpg",
-      "id":39,
-      "reviews":542
-    }, 
+      "id": 39,
+      "reviews": 542
+    },
     {
       "_id": 11,
       "name": "Achar",
       "cuisine": " Indian",
       "cost": 523,
       "minPrice": 81,
-      "paymentMethod":{
-        "data":"Accepts COD payment only",
-        "cash":"true",
-        "card":"false",
-        "upi":"false"
-        },
+      "paymentMethod": {
+        "data": "Accepts COD payment only",
+        "cash": "true",
+        "card": "false",
+        "upi": "false"
+      },
       "rating": 5,
       "votes": "2879",
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/1a/18/3a/cb/restaurant-le-47.jpg",
-      "id":40,
-      "reviews":523
+      "id": 40,
+      "reviews": 523
     },
-    
     {
       "_id": 2,
       "name": "Indian food",
       "cuisine": " Indian",
       "cost": 200,
-      "minPrice": 20,"paymentMethod":{
-        "data":"Accepts card and cash payment only",
-        "cash":"true",
-        "card":"true",
-        "upi":"false"
-        },
+      "minPrice": 20,
+      "paymentMethod": {
+        "data": "Accepts card and cash payment only",
+        "cash": "true",
+        "card": "true",
+        "upi": "false"
+      },
       "rating": 4.9,
       "votes": "7731",
       "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Barbieri_-_ViaSophia25668.jpg",
-      "id":31,
-      "reviews":500
-    }, 
+      "id": 31,
+      "reviews": 500
+    },
     {
       "_id": 1,
-      "name":"Vegcorner",
+      "name": "Vegcorner",
       "cuisine": " Indian",
       "cost": 100,
       "minPrice": 10,
-      "paymentMethod":{
-        "data":"Accepts card payment only",
-        "cash":"false",
-        "card":"true",
-        "upi":"false"
-        },
+      "paymentMethod": {
+        "data": "Accepts card payment only",
+        "cash": "false",
+        "card": "true",
+        "upi": "false"
+      },
       "rating": 4,
       "votes": "7901",
       "image": "https://b.zmtcdn.com/data/pictures/2/308322/cf86dbd8b8ca4d40682c7713f112cc07_featured_v2.jpg",
-      "id":30,
-      "reviews":100
+      "id": 30,
+      "reviews": 100
     }
-    
+  ],
+  "todos": [
+    {
+      "name": "jai bhole baba ki",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "jai baba ki",
+      "status": true,
+      "id": 3
+    },
+    {
+      "name": "jai shree ram",
+      "status": true,
+      "id": 4
+    }
   ]
 }

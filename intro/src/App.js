@@ -13,6 +13,8 @@ import Showcontext from './contextapi/Showcontext';
 import Allroutes from "./Authassignment/Allroutes"
 import RestroRoutes from './Restaurent_full/RestroRoutes';
  import Showevaluation from "./evalutaion1/components/Showevaluation"
+import Details from './formpractice/Details';
+import Showtodo from './Todounit5/Showtodo';
 
 
 function App() {
@@ -33,8 +35,9 @@ function App() {
    {/* <Intro></Intro> */}
 {/* <Showcontext></Showcontext> */}
 {/* <Allroutes></Allroutes> */}
-<RestroRoutes> </RestroRoutes>
- 
+{/* <RestroRouteses> </RestroRouteses> */}
+{/* <Details></Details> */}
+   <Showtodo></Showtodo>
     </div>
   
   );
