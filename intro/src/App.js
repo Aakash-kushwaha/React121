@@ -15,6 +15,7 @@ import RestroRoutes from './Restaurent_full/RestroRoutes';
  import Showevaluation from "./evalutaion1/components/Showevaluation"
 import Details from './formpractice/Details';
 import Showtodo from './Todounit5/Showtodo';
+import Showtodothunk from './Todo_Thunk/Showtodothunk';
 
 
 function App() {
@@ -37,7 +38,13 @@ function App() {
 {/* <Allroutes></Allroutes> */}
 {/* <RestroRouteses> </RestroRouteses> */}
 {/* <Details></Details> */}
-   <Showtodo></Showtodo>
+   {/* <Showtodo></Showtodo> */}
+
+ <Showtodothunk></Showtodothunk>
+
+
+
+
     </div>
   
   );
