@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { postTodo } from '../Redux/action'
+import { postTodo } from '../Redux/Todo/action'
 
 const Addtodo = () => {
     const [value,setValue] = React.useState("")

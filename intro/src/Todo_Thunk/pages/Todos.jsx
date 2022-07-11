@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { getTodos } from '../Redux/action'
+import { getTodos } from '../Redux/Todo/action'
 import Addtodo from './Addtodo'
 import Todolist from './Todolist'
 

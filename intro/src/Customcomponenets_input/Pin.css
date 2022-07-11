@@ -1,0 +1,12 @@
+.Pinapp{
+    text-align: center;
+}
+
+
+.Pinapp input{
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+    text-align: center;
+
+}

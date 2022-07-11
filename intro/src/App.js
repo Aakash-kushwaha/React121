@@ -16,6 +16,11 @@ import RestroRoutes from './Restaurent_full/RestroRoutes';
 import Details from './formpractice/Details';
 import Showtodo from './Todounit5/Showtodo';
 import Showtodothunk from './Todo_Thunk/Showtodothunk';
+import Showcouterauth from './counter_auth/Showcouterauth';
+import Todo from './OptimisationTodo/Todo';
+import Showcustom from './CustomHooks/Showcustom';
+import Showcypresscounter from './CypresTesting/Showcypresscounter';
+import Showsearchbar from './Searchbarwithdebouncing/Showsearchbar';
 
 
 function App() {
@@ -40,11 +45,12 @@ function App() {
 {/* <Details></Details> */}
    {/* <Showtodo></Showtodo> */}
 
- <Showtodothunk></Showtodothunk>
-
-
-
-
+ {/* <Showtodothunk></Showtodothunk> */}
+ {/* <Showsearchbar></Showsearchbar> */}
+  {/* <Showcouterauth></Showcouterauth> */}
+{/* <Todo></Todo> */}
+ {/* <Showcustom></Showcustom> */}
+ <Showcypresscounter></Showcypresscounter>
     </div>
   
   );
