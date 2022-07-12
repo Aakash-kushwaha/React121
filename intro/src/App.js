@@ -21,6 +21,7 @@ import Todo from './OptimisationTodo/Todo';
 import Showcustom from './CustomHooks/Showcustom';
 import Showcypresscounter from './CypresTesting/Showcypresscounter';
 import Showsearchbar from './Searchbarwithdebouncing/Showsearchbar';
+import Showshivaniaxios from './Shivaniaxios/Showshivaniaxios';
 
 
 function App() {
@@ -50,7 +51,8 @@ function App() {
   {/* <Showcouterauth></Showcouterauth> */}
 {/* <Todo></Todo> */}
  {/* <Showcustom></Showcustom> */}
- <Showcypresscounter></Showcypresscounter>
+ {/* <Showcypresscounter></Showcypresscounter> */}
+ {/* <Showshivaniaxios></Showshivaniaxios> */}
     </div>
   
   );

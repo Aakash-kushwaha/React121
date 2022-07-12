@@ -1,0 +1,13 @@
+{  
+      "include":["typesrc"],
+"exclude": ["node_modules"],
+    "compilerOptions": {
+        
+      "outDir": "build",
+      "allowJs": true,
+      "target": "es2017",
+      "declaration": true,
+      "sourceMap": true
+    },
+    // "include": ["./src/**/*"]
+  }
