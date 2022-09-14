@@ -2,7 +2,7 @@ import React from 'react'
 import { postTodo } from '../redux/Todo/action'
 import {useSelector,useDispatch} from "react-redux"
 
-const Addtodo = () => {
+const   Addtodo = () => {
     // const data = useSelector((store)=>store)
       // console.log(data,"store")
     const [text,setText] = React.useState("")

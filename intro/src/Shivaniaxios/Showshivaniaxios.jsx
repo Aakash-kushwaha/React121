@@ -1,33 +1,57 @@
 import React from 'react';
 import axios from 'axios'
+import { Input } from '@chakra-ui/react';
 
 export default function Showshivaniaxios(){
+  const [text,setTexxt] = React.useState("")
   
-React.useEffect(()=>{
-  console.log('hee')
- axios.post('https://reqres.in/api/login',{ email: "eve.holt@reqres.in",password:"shivani"})
-.then(function (response) {
-  // handle success
-  console.log(response);
-})
-.catch(function (error) {
-  // handle error
-  console.log(error);
-})
-},[])
-   // Make a request for a user with a given ID
+   const Adddata=(value)=>{
+    axios.post("https://testingwithprayas.herokuapp.com/articles",{title:value,status:false})
+    .then(function (response) {
+   
+      console.log(response.data,"post");
+    })
+    .catch(function (error) {
 
-  
-   // .then(function () {
-   //   // always executed
-   // });
+      console.log(error);
+    })
+   }
  
+   const remove=(id)=>{
+    axios.delete(`https://testingwithprayas.herokuapp.com/articles/${id}`)
+.then(function (response) {
 
+  console.log(response.data,"remove");
+})
+   }
+
+   const editdata=(id)=>{
+    axios.patch(`https://testingwithprayas.herokuapp.com/articles/${id}`,{status:true})
+.then(function (response) {
+
+  console.log(response.data,"patch");
+})
+   }
+
+   const getdata=()=>{
+    axios.get("https://testingwithprayas.herokuapp.com/articles")
+    .then(function (response) {
+    
+      console.log(response.data,"get");
+    })
+   }
   return(
     // const axios = require('axios').default;
 
     <>
-    <h4>shiva</h4>
+     <Input onChange={(e)=>setTexxt(e.target.value)} value={text} placeholder="Enter id"></Input>
+     <br></br>
+    <button onClick={()=>Adddata(text)}>add</button>
+    <button  onClick={()=>remove(text)}>delete</button>
+    <button  onClick={()=>editdata(text)}>patch</button>
+    <button  onClick={()=>getdata()}>get</button>
+   
+
     </>
   )
 }

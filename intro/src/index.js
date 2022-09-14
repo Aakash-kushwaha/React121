@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import Contextapiprovider from "./contextapi/Contextapiprovider"
 import { Authprovider } from './Authassignment/Authprovider';
+import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // // without jsx
@@ -28,11 +29,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
 
-
 <App></App>
 
-
-
+// let obj1 = {}
+// let obj2 = {}
+// console.log(obj1==obj2)
 /* <Authprovider>
  </Authprovider> */
 // { <Contextapiprovider> }

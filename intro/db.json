@@ -201,24 +201,19 @@
   ],
   "todos": [
     {
-      "name": "jai bhole baba ki",
-      "status": false,
-      "id": 2
-    },
-    {
-      "name": "jai baba ki",
-      "status": true,
-      "id": 3
-    },
-    {
-      "name": "radhe radhe",
-      "status": true,
-      "id": 4
-    },
-    {
       "name": "jai shree krishna",
-      "status": false,
+      "status": true,
       "id": 5
+    },
+    {
+      "name": "heell",
+      "status": false,
+      "id": 6
+    },
+    {
+      "name": "shivani pagal",
+      "status": false,
+      "id": 7
     }
   ],
   "counter": {
